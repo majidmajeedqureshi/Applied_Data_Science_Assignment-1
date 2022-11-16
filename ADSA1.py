@@ -40,15 +40,14 @@ file.info()
 
 '''
 x = Takes  All value of top columns e:g country names ( India , china , Russia ,UK and USA)
-Y = firstly Takes the value of Row 23 and columns 1 value , secondly row 23 and colums 2
- thirdly row 23 columns 3 ,then row 23 columns 4 and lastly row 23 and colums 5
+Y = firstly Takes the value of Row 23 and columns 1 value , secondly row 23 and column 2 
+thirdly row 23 columns 3 ,then row 23 columns 4 and lastly row 23 and column 5
 color = Highlight the colour of bars 
 x_label = show that what is in X-axis
 y_label  = show  that what is in Y-axis
 title = Show  that what is main purpose of over plot and what we want to show
 
 '''
-
 def topten_barchart(x, y, color, x_label, y_label, title):
     plt.barh(x, y, color=color)
     plt.xlabel(x_label)
@@ -71,8 +70,8 @@ topten_barchart(x, y, color, x_label, y_label, title)
 # Top Countries by Wealth (Pie Chart)
 
 '''
-x = firstly Takes the value of Row 23 and columns 1 value , secondly row 23 and colums 2
-  thirdly row 23 columns 3 ,then row 23 columns 4 and lastly row 23 and colums 5
+x = firstly Takes the value of Row 23 and columns 1 value , secondly row 23 and column 2 
+thirdly row 23 columns 3 ,then row 23 columns 4 and lastly row 23 and column 5
 y= Takes  All value of top columns e:g country names ( India , china , Russia ,UK and USA)
 '''
 
